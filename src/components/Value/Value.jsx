@@ -35,7 +35,7 @@ const Value = () => {
           <Accordion
               className="accordion"
               allowMultipleExpanded={false}
-               preExpanded={0}
+               preExpanded={[0]}
                slidesPerView={1} // Update the prop name to slidesPerView
            >
 
